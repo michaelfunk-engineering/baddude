@@ -32,18 +32,18 @@ include <pattern.scad>;
 
 // uncomment the next two lines if you are doing a mirrored panel
 mirroring = true;
-mirror = 2; // multiplicative factor
+mirror = 1; // multiplicative factor
 // uncomment the next two lines if you are NOT doing a mirrored panel
 //mirroring = false;
 //mirror = 1; // multiplicative factor
 
 // board width in mm
-board_width = 609.6; // 609.6mm = 24 inches
+board_width = 610; // 609.6mm = 24 inches
 // board height in mm
 board_height = board_width * mirror;
 
 // hole radius
-radius = 6.35; // 6.35mm = 1/4 inch
+radius = 7; // 6.35mm = 1/4 inch
 diameter = radius * 2;
 
 // top and bottom margin
